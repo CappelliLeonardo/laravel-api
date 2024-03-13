@@ -15,7 +15,11 @@ class Project extends Model
         'content',
         'type_id',
         'cover_img',
-    ] ;
+    ];
+
+    // protected $with = [
+    //     'type'
+    // ];
 
     //Relazioni fra le due tabelle
 
